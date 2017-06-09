@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+
+  &-header {
+    background-color: #222;
+    height: 100vh;
+    
+    &-middle {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); 
+    }
+  }
+}
